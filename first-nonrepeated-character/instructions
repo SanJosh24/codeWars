@@ -19,3 +19,16 @@ Example #1	"stress"	"t"
 Example #2	"STreSS"	"T"
 Example #1 Explanation:
 In the input 'stress', the function should return 't', since the letter t only occurs once in the string, and occurs first in the string.
+
+
+// assign first character to variable
+
+check if first character is repeated in the string
+
+if character does repeat seperate it and use the next character as the new first character.
+
+then use the new first character to see if its repeated in the string
+
+create a counter to track how many repeated characters there is in the string and if the counter === string length return empty string
+
+once I find the non repeated character return the result
